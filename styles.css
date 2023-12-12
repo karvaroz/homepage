@@ -52,11 +52,11 @@ body {
 
 @media screen and (max-width: 576px) {
 	.main-info,
-	.contact_info_container {
+	.contact-info-container {
 		flex-direction: column;
 	}
 
-	.contact_info_container {
+	.contact-info-container {
 		align-items: center;
 	}
 
@@ -68,6 +68,7 @@ body {
 		margin-right: 0;
 	}
 }
+
 /* Contact info styles */
 
 .contact-info__header,
@@ -132,7 +133,10 @@ body {
 	border: 3px solid;
 	border-color: var(--text-decoration-color);
 }
-Intro and skills styles .intro {
+
+/* Intro and skills styles */
+
+.intro {
 	display: flex;
 	justify-content: start;
 }
@@ -168,6 +172,7 @@ Intro and skills styles .intro {
 	color: var(--secondary-text-color);
 	text-align: justify;
 }
+
 /* Experience and additional info styles */
 
 .experiences {
